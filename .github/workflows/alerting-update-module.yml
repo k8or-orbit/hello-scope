@@ -28,7 +28,7 @@ jobs:
           fi
 
       - name: Setup Go
-        uses: actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34 # 5.3.0
+        uses: actions/setup-go@19bb51245e9c80abacb2e91cc42b33fa478b8639 # 4.2.1
         with:
           "go-version-file": "go.mod"
 
